@@ -3,7 +3,7 @@
 #
 # Scrivere uno script che
 # 1. Legge un numero intero da tastiera
-# 2. Controlla se è un multiplo di 8 E/O è un multiplo di 13
+# 2. Controlla se è un multiplo di 8 o se è un multiplo di 13
 #
 # Esempi di funzionamento:
 #
