@@ -7,7 +7,7 @@ b = a > 3
 # La variabile a è di tipo intero, mentre b è di tipo booleano
 # Questo significa che b può assumere solo due valori possibili:
 # b = True se a è maggiore di 3
-# b = False sa non è maggiore di 3
+# b = False se a NON è maggiore di 3
 #
 # Altri possibili valori di b sono
 # b = a == 5 (significa a uguale a 5)
