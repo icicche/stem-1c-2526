@@ -29,7 +29,7 @@ b_is_positive = b > 0    # variabile booleamna di controllo
 
 if b_is_positive:
   print("Il numero è positivo")
-elif not b_is_positivo:
+elif not b_is_positive:
   print("Il numero è negativo")
 else:
   print("Il numero è zero")
