@@ -33,4 +33,4 @@ a_oppure_b = a or b
 non_a = not a
 
 # Stampa il valore delle tre variabili definite nelle righe 31-32-33
-# In che modo il loro valore dipende da quello di a e b
+# In che modo il loro valore dipende da quello di a e b?
