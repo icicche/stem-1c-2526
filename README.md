@@ -1,4 +1,4 @@
-## Argomenti lezioni
+Esempi ed esercizi di programmazione in Python per il corso STEM, suddivisi per incontri.
 
 ### 002 - 13/10/2025
 - Cicli `while`
