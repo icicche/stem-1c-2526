@@ -12,7 +12,7 @@ lunghezza = len(stringa)
 
 if lunghezza > 10:
     print("La stringa inserita è lunga")
-elif lunghezza < 10:
+elif lunghezza < 5:
     print("La stringa inserita è corta")
 else:
     print("La stringa inserita non è lunga né corta")
