@@ -1,5 +1,18 @@
 Esempi ed esercizi di programmazione in Python per il corso STEM, suddivisi per incontri.
 
+Requisiti
+- [Python](https://www.python.org/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+
+oppure
+- [editor online](https://www.onlineide.pro/playground/python)
+
+
+### 003 - 22/10/2025
+- Liste: indicizzazione, accesso agli elementi, modifica, aggiunta e rimozione
+- Scorrimento di una lista e cicli `for`
+- Liste di interi, funzione `range`
+
 ### 002 - 13/10/2025
 - Cicli `while`
 - Sequenze di interi: stampa e conteggio
