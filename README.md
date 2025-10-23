@@ -5,8 +5,9 @@ Requisiti
 - [Visual Studio Code](https://code.visualstudio.com/)
 
 oppure
-- [editor online](https://www.onlineide.pro/playground/python)
+- [Editor online](https://www.onlineide.pro/playground/python)
 
+## Indice
 
 ### 003 - 22/10/2025
 - Liste: indicizzazione, accesso agli elementi, modifica, aggiunta e rimozione
