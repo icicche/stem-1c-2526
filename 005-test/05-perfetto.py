@@ -6,17 +6,4 @@
 # 6  = 1 + 2 + 3
 # 28 = 1 + 2 + 4 + 7 + 14
 #
-# Trovare i primi cinque numeri perfetti.
-
-n = 1
-count = 0
-
-while(count <= 5):
-    somma = 0
-    for i in range(1,n):
-        if n % i == 0:
-            somma += i
-    if somma == n:
-        print(n)
-        count += 1
-    n += 1
+# Trovare i primi quattro numeri perfetti.
