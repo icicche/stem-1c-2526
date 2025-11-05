@@ -25,3 +25,7 @@ oppure
 - Istruzioni di controllo (`if`, `elif`, `else`)
 - Input da tastiera
 - Conversioni di tipo
+
+### 000 - Presentazione generale
+- Cifrari di Cesare e Vigenère
+- Aritmetica modulare in GeoGebra
