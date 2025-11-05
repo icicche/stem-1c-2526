@@ -15,7 +15,7 @@ while totale < 4:
 
     # Calcola la somma dei divisori di n
     somma_divisori = 0
-    for d in range(1,n):
+    for d in range(1, n):
         if n % d == 0:
             somma_divisori += d
     
