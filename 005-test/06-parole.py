@@ -24,3 +24,19 @@ parole = [
 # | 3 |
 # | 4 |
 #  ...
+
+lunghezze = []
+
+# La lista lunghezze ha questa proprietà:
+# l'elemento di posto i è il numero di parole
+# che hanno lunghezza i
+
+for i in range(10):
+    totale = 0
+    for parola in parole:
+        if len(parola) == i:
+            totale += 1
+    lunghezze.append(totale)
+
+for i in range(1, 10):
+    print("Parole di " + str(i) + " lettere: ", lunghezze[i])
