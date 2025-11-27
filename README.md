@@ -9,6 +9,15 @@ oppure
 
 ## Indice
 
+### 005 - 26/11/2025
+- Funzioni: definizioni e utilizzo nel codice (12/11/2025)
+- [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+- [Simulazione interattiva][https://playgameoflife.com/]
+- Variabili globali e funzioni di aggiornamento
+
+### 004 - 05/11/2025
+- Esercizi per un test di verifica
+
 ### 003 - 22/10/2025
 - Liste: indicizzazione, accesso agli elementi, modifica, aggiunta e rimozione
 - Scorrimento di una lista e cicli `for`
@@ -29,3 +38,5 @@ oppure
 ### 000 - Presentazione generale
 - Cifrari di Cesare e Vigenère
 - Aritmetica modulare in GeoGebra
+
+[def]: https://playgameoflife.com/
