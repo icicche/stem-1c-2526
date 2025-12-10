@@ -1,6 +1,8 @@
 # 005/01
 # John Conway's Game of Life
 
+import time
+
 # Functions definitions
 
 def index(x, y):
@@ -40,12 +42,12 @@ def next_grid():
                 grid[index(x, y)] == A
                 and (near_alive(x, y) < 2 or near_alive(x, y) > 3)
                 ):
-                    new_grid.append(D)
+                new_grid.append(D)
 
             # If (x, y) is dead and has exactly e alive
             # neighbors, then it becomes alive
             elif grid[index(x, y)] == D and near_alive(x, y) == 3:
-                    new_grid.append(A)
+                 new_grid.append(A)
             
             # Otherwise, the state of the cell stays the same
             else:
@@ -53,28 +55,43 @@ def next_grid():
     
     return new_grid
 
+def pretty_print(grid):
+    # Print the grid cleanly in a rectangular way
+    p = '\033c\n'
+    i = 0
+    for s in grid:
+        i += 1
+        p += ' ' + s
+        if (i % COLS == 0):
+            p += ' \n'
+    
+    print(p)
+
 
 # Initialize grid
 
-ROWS = 4        # Grid rows
-COLS = 5        # Grid columns
+ROWS = 10        # Grid rows
+COLS = 10        # Grid columns
 
-A = 'X'         # Displayed char for alive cells
-D = 'O'         # Displayed char for dead cells
+A = '+'         # Displayed char for alive cells
+D = ' '         # Displayed char for dead cells
 
 grid = [
-    A, D, D, D, D,
-    D, A, A, D, D,
-    D, A, D, D, A,
-    A, A, A, D, D
+    D, D, D, D, D, D, D, D, D, D,
+    D, D, D, A, D, D, D, D, D, D,
+    D, D, D, D, A, D, D, D, D, D,
+    D, D, A, A, A, D, D, D, D, D,
+    D, D, D, D, D ,D, D, D, D, D,
+    D, D, D, D, D, D, D, D, D, D,
+    D, D, D, D, D, D, D, D, D, D,
+    D, D, D, D, D, D, D, D, D, D,
+    D, D, D, D, D, D, D, D, D, D,
+    D, D, D, D, D, D, D, D, D, D
     ]
 
-# Do some test for now
+# Start the game
 
-x = 3
-y = 3
-
-print(grid[index(x, y)])
-grid = next_grid()
-print(grid[index(x, y)])
-
+while True:
+    pretty_print(grid)
+    grid = next_grid()
+    time.sleep(0.1)
